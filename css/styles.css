@@ -1,6 +1,11 @@
+/* Fuente de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+/* Aplicar la fuente a todos los elementos */
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Lato', sans-serif; /* Agregamos la fuente Lato a todos los elementos */
 }
 
 ul ol {
@@ -18,13 +23,27 @@ a {
   list-style-type: none;
 }
 header {
-  background-color: rgb(70, 9, 236);
+  position: relative;
   color: white;
   padding: 1rem;
   align-items: center;
-  font-size: xx-large;
+  font-size: 50px;
 }
 
+header form.search-form {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+header form input[type="search"] {
+  width: 200px;
+  height: 30px;
+  font-size: 16px;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -35,16 +54,18 @@ header ul {
   gap: 30px;
 }
 
-header nav li {
-  display: flex;
+header nav div a {
   gap: 50px;
   align-items: center;
+  padding-left: 75px;
+  padding-right: 75px;
+  font-size: 50px;
 }
 
 header div img {
   display: flex;
-  max-width: 150px;
-  max-height: 150px;
+  max-width: 300px;
+  max-height: 300px;
 }
 
 header button {
@@ -57,6 +78,10 @@ header button {
 }
 
 /* body iconos */
+
+.row {
+  padding-bottom: 25px;
+}
 .sponsors {
   max-width: 200px;
   max-height: 50px;
@@ -66,7 +91,6 @@ main section ul {
   display: flex;
   justify-content: center;
   gap: 50px;
-  background-color: rgb(184, 181, 181);
   padding: 150px;
 }
 
@@ -77,6 +101,9 @@ footer {
   background-color: rgb(34, 34, 34);
   color: white;
   padding: 20px;
+  opacity: 80%;
+  font-size: larger;
+  padding-top: 50px;
 }
 
 footer ul {
@@ -89,11 +116,11 @@ footer ul li {
 
 /* MAIN */
 .main-somos {
-  background-color: rgb(156, 156, 156);
   color: white;
   display: flex;
   justify-content: space-around;
   margin-top: 0px;
+  padding-bottom: 300px;
 }
 
 .div-somos {
@@ -107,6 +134,7 @@ footer ul li {
 }
 
 .p-somos {
+  padding-bottom: 30px;
   background: none;
   border: none;
   font-size: 25px;
@@ -119,22 +147,32 @@ footer ul li {
   max-height: 600px;
 }
 
+
 .main-equipos {
-  background-color: rgb(172, 171, 171);
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
 .h2-equipos {
   color: white;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
 }
 
 .div-equipos {
-  padding: 5px;
+  padding: 20px;
+  text-align: center;
 }
 
+.div-equipos img {
+  padding: 5px;
+  max-width: 300px;
+  min-height: 300px;
+}
 .p-equipos {
   width: 200px;
   color: white;
@@ -191,8 +229,6 @@ footer ul li {
   }
 
   .main-equipos {
-    flex-direction: column;
-    align-items: center;
     padding: 50px;
   }
 
@@ -207,4 +243,196 @@ footer ul li {
   .div-contacto {
     font-size: 30px;
   }
+}
+
+
+/* fondos de pantalla */
+
+.body-index {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.body-index::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/img/frankkaster-culturageek.com_.ar_.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px); /* Ajusta el valor de blur según el desenfoque que desees */
+  z-index: -1;
+}
+
+.body-somos {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.body-somos::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/img/34cF3rgsl_2000x1500__1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px) brightness(0.2); /* Ajusta el valor de blur según el desenfoque que desees */
+  z-index: -1;
+}
+
+.body-equipos {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.body-equipos::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/img/KW726BINKBCMPEUPRVMX2TQACM.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px) brightness(0.4); /* Ajusta el valor de blur según el desenfoque que desees */
+  z-index: -1;
+}
+
+.body-oficinas {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.body-oficinas::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/img/AGS2022-booth-9z-3-culturageek.com_.ar-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px) brightness(0.4); /* Ajusta el valor de blur según el desenfoque que desees */
+  z-index: -1;
+}
+
+.body-contacto {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.body-contacto::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/img/maxresdefault.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px) brightness(0.4); /* Ajusta el valor de blur según el desenfoque que desees */
+  z-index: -1;
+}
+
+/* Estilos para el formulario de contacto */
+.formulario-contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: start;
+}
+
+.formulario-contacto label {
+  font-size: 18px;
+  color: white;
+}
+
+.formulario-contacto input[type="text"],
+.formulario-contacto input[type="email"],
+.formulario-contacto input[type="tel"],
+.formulario-contacto textarea {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.formulario-contacto textarea {
+  resize: vertical;
+}
+
+.formulario-contacto input[type="submit"],
+.formulario-contacto input[type="reset"] {
+  width: 200px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.formulario-contacto input[type="submit"]:hover,
+.formulario-contacto input[type="reset"]:hover {
+  background-color: #8a2be2;
+}
+
+.div-contacto2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  ;
+}
+
+.search-form {
+  display: flex;
+  gap: 10px;
+}
+
+.search-form input[type="search"] {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid blueviolet;
+  border-radius: 5px;
+}
+
+.search-form input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Cambiar el color del botón cuando se le pasa el cursor por encima */
+.search-form input[type="submit"]:hover {
+  background-color: #8a2be2;
 }

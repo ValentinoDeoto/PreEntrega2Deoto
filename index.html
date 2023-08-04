@@ -5,33 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
     <title>Inicio</title>
+    
 
 </head>
 
-<body>
+<body class="body-index">
 
-<header>
-    <div class="col-2">
-        <img src="/img/600px-9z_Team_allmode.png" alt="">
-        <h1>9z Team</h1>
-    </div>
-
-
-    <nav>
-        <div>
+    <header>
+        <nav>
+            <div>
                 <a href="./pages/somos.html"><strong>Somos</strong></a>
                 <a href="./pages/equipos.html"><strong>Equipos</strong> </a>
+            </div>
+        </nav>
+    
+        <!-- Formulario de búsqueda -->
+        <form class="search-form" action="" method="GET">
+            <input type="search" placeholder="Buscar...">
+            <input type="submit" value="Buscar">
+        </form>
+    
+        <div class="center-content">
+            <img src="/img/600px-9z_Team_allmode.png" alt="">
+            <h1>9z Team</h1>
+        </div>
+    
+        <nav>
+            <div>
                 <a href="./pages/oficinas.html"><strong>Oficinas</strong></a>
                 <a href="./pages/contacto.html"><strong>Contacto</strong></a>
-        </div>
-    </nav>
+            </div>
+        </nav>
+    </header>
+    
 
-    <form action="" class="col-4">
-        <input type="search" placeholder="Buscar...">
-        <input type="submit" value="Enviar">
-    </form>
-</header>
 
 <main>
 <section class="row">
@@ -53,10 +64,7 @@
         </li>
     </ul>
 </section>
-<hr>
-<hr>
-<hr>
-<hr>
+
 <section>
     <ul class="list-style-type">
         <li col-><img src="./img/1_oU2V1rFLqN-zvF2gRFH-iA@2x.png" alt="Sponsor Lemon" class="sponsors"></li>
@@ -84,7 +92,7 @@
     <div>
         <h2>Contacto</h2>
         <ul class="list-style-type">
-            <li>ejemplosoporte@gmail.com</li>
+            <li>soporte9zteam@gmail.com</li>
             <li>+54 2611234567</li>
         </ul>
     </div>
@@ -92,14 +100,15 @@
     <div>
         <h2>Redes</h2>
         <ul class="list-style-type">    
-            <li>Instagram</li>
-            <li>Twitter</li>
-            <li>Discord</li>
+            <li><a target="valor_blank" href="https://www.instagram.com/9zteam/"> Instagram </a></li>
+            <li><a target="valor_blank" href="https://www.twitter.com/9zteam/">Twitter</a></li>
+            <li><a target="valor_blank" href="https://discord.com/invite/ZzVD5Hp">Discord</a></li>
         </ul>
     </div>
 
 
 </footer>
+
 
 </body>
 

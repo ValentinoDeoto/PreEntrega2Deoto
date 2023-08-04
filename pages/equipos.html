@@ -6,67 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Equipos</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="body-equipos">
+
     <header>
-        <div>
-            <img src="/img/600px-9z_Team_allmode.png" alt="">
-            <h1>9z Team</h1>
-        </div>
-
-
         <nav>
-            <ul class="list-style-type">
-                <li><a href="/index.html"><strong>Inicio</strong></a></li>
-                <li><a href="/pages/somos.html"><strong>Somos</strong> </a></li>
-                <li><a href="/pages/oficinas.html"><strong>Oficinas</strong></a></li>
-                <li><a href="/pages/contacto.html"><strong>Contacto</strong></a></li>
-            </ul>
+            <div>
+                <a href="/index.html"><strong>Inicio</strong></a>
+                <a href="somos.html"><strong>Somos</strong> </a>
+            </div>
         </nav>
-
-        <form action="">
+    
+        <!-- Formulario de búsqueda -->
+        <form class="search-form" action="" method="GET">
             <input type="search" placeholder="Buscar...">
-            <input type="submit" value="Enviar">
+            <input type="submit" value="Buscar">
         </form>
+    
+        <div class="center-content">
+            <img src="/img/600px-9z_Team_allmode.png" alt="">
+            <h1>VALORANT</h1>
+        </div>
+    
+        <nav>
+            <div>
+                <a href="oficinas.html"><strong>Oficinas</strong></a>
+                <a href="contacto.html"><strong>Contacto</strong></a>
+            </div>
+        </nav>
     </header>
 
     <main class="main-equipos">
-        <h2 class="h2-equipos">VALORANT</h2>
+
         <div class="div-equipos">
-            <img src="/img/silhouette-of-a-man-36181_1280.webp" alt="Silueta" style="width: 200px; height: 200px">
-            <p class="p-equipos">Lorem ipsum dolor amet consectetur, adipisicing elit. Molestiae, sequi.</p>
+            <img src="/img/Puleule_Apex_Preseason_Invitational.png" alt="Silueta">
+            <p class="p-equipos">Nahuel "Puleule" Pulella Nacido el 14 de Marzo de 1995 es un jugador Argentino.</p>
         </div>
         <div class="div-equipos">
-            <img src="/img/silhouette-of-a-man-36181_1280.webp" alt="Silueta" style="width: 200px; height: 200px">
-            <p class="p-equipos">Lorem ipsum dolor amet consectetur, adipisicing elit. Molestiae, sequi.</p>
+            <img src="/img/9z_Team_2023_Deigara.png" alt="Deigara">
+            <p class="p-equipos">Gonzalo "deigara" Funes Nacido el 18 de Febrero de 1999 es un jugador argentino</p>
         </div>
         <div class="div-equipos">
-            <img src="/img/silhouette-of-a-man-36181_1280.webp" alt="Silueta" style="width: 200px; height: 200px">
-            <p class="p-equipos">Lorem ipsum dolor amet consectetur, adipisicing elit. Molestiae, sequi.</p>
+            <img src="/img/9z_Team_2023_David.png" alt="David" >
+            <p class="p-equipos">David "david" Olivares (anteriormente conocido como Mono) nacido el 12 de julio de 2004 es un jugador chileno</p>
         </div>
         <div class="div-equipos">
-            <img src="/img/silhouette-of-a-man-36181_1280.webp" alt="Silueta" style="width: 200px; height: 200px">
-            <p class="p-equipos">Lorem ipsum dolor amet consectetur, adipisicing elit. Molestiae, sequi.</p>
+            <img src="/img/600px-Leobas.png" alt="Rubkkoide" >
+            <p class="p-equipos">Jorge "Leobas" Basauri nacido el 28 de julio de 2001 es un jugador argentino.</p>
         </div>
         <div class="div-equipos">
-            <img src="/img/silhouette-of-a-man-36181_1280.webp" alt="Silueta" style="width: 200px; height: 200px">
-            <p class="p-equipos">Lorem ipsum dolor amet consectetur, adipisicing elit. Molestiae, sequi.</p>
+            <img src="/img/9z_Team_2023_Tuli.png" alt="Tuli" >
+            <p class="p-equipos">Giulliano "Tuli" Massone nacido el 18 de mayo de 2000 es un jugador chileno.</p>
         </div>
-        <div class="div-equipos">
-            <img src="/img/silhouette-of-a-man-36181_1280.webp" alt="Silueta" style="width: 200px; height: 200px">
-            <p class="p-equipos">Lorem ipsum dolor amet consectetur, adipisicing elit. Molestiae, sequi.</p>
-        </div>
-        <div class="div-equipos">
-            <img src="/img/silhouette-of-a-man-36181_1280.webp" alt="Silueta" style="width: 200px; height: 200px">
-            <p class="p-equipos">Lorem ipsum dolor amet consectetur, adipisicing elit. Molestiae, sequi.</p>
-        </div>
+
     </main>
 
     <footer>
         <div>
             <h2>Contacto</h2>
             <ul class="list-style-type">
-                <li>ejemplosoporte@gmail.com</li>
+                <li>soporte9zteam@gmail.com</li>
                 <li>+54 2611234567</li>
             </ul>
         </div>
@@ -74,15 +76,13 @@
         <div>
             <h2>Redes</h2>
             <ul class="list-style-type">    
-                <li>Instagram</li>
-                <li>Twitter</li>
-                <li>Discord</li>
+                <li><a target="_blank" href="https://www.instagram.com/9zteam/"> Instagram </a></li>
+                <li><a target="_blank" href="https://www.twitter.com/9zteam/">Twitter</a></li>
+                <li><a target="_blank" href="https://discord.com/invite/ZzVD5Hp">Discord</a></li>
             </ul>
         </div>
     
     </footer>
-
-
 
 </body>
 </html>

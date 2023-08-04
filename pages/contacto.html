@@ -5,91 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/styles.css">
 </head>
-<body>
+<body class="body-contacto">
 
-        <header>
+    <header>
+        <nav>
+            <div>
+                <a href="/index.html"><strong>Inicio</strong></a>
+                <a href="somos.html"><strong>Somos</strong> </a>
+            </div>
+        </nav>
     
+        <!-- Formulario de búsqueda -->
+        <form class="search-form formulario-contacto" action="" method="GET">
+            <input type="search" placeholder="Buscar...">
+            <input type="submit" value="Buscar">
+        </form>
+    
+        <div class="center-content">
+            <img src="/img/600px-9z_Team_allmode.png" alt="">
+            <h1>9z Team</h1>
+        </div>
+    
+        <nav>
             <div>
-                <img src="/img/600px-9z_Team_allmode.png" alt="">
-                <h1>9z Team</h1>
+                <a href="equipos.html"><strong>Equipos</strong></a>
+                <a href="oficinas.html"><strong>Oficinas</strong></a>
             </div>
+        </nav>
+    </header>
         
-        
-            <nav>
-                <ul class="list-style-type">
-                    <li><a href="/index.html"><strong>Inicio</strong></a></li>
-                    <li><a href="/pages/somos.html"><strong>Somos</strong></a></li>
-                    <li><a href="/pages/equipos.html"><strong>Equipos</strong></a></li>
-                    <li><a href="/pages/oficinas.html"><strong>Oficinas</strong></a></li>
-                </ul>
-            </nav>
-        
-            <form action="">
-                <input type="search" placeholder="Buscar...">
-                <input type="submit" value="Enviar">
+    <main class="main-somos">
+        <div class="div-somos">
+            <h2 class="h2-somos">¿Quieres contactarte con nosotros?</h2>
+            <form class="formulario-contacto" action="">
+                <div class="div-contacto2">
+                    <label for="nombre">Ingrese su nombre:</label>
+                    <input type="text" id="nombre" placeholder="Nombre...">
+                
+                    <label for="e-mail">Ingrese su E-mail</label>
+                    <input type="email" id="e-mail" placeholder="E-mail@ejemplo.com">
+                
+                    <label for="telefono">Ingrese su numero de telefono</label>
+                    <input type="tel" id="telefono" placeholder="Telefono...">
+                
+                    <label for="texto">Ingrese su texto aqui</label>
+                    <textarea id="texto" rows="4" placeholder="Escribe aquí tu mensaje..."></textarea>
+                    
+                    <input type="submit">
+                    <input type="reset">
+                </div>
             </form>
-        </header>
+        </div>
         
-        <main class="main-somos">
-
-            <div class="div-somos">
-                <h2 class="h2-somos">¿Queres contactarte con nosotros?</h2>
-                <form action="">
-                    <div>
-                        <label for="nombre">Ingrese su nombre:</label>
-                        <input type="nombre" id="Nombre" placeholder="Nombre...">
-                    
-            
-                    
-                        <label for="e-mail">Ingrese su E-mail</label>
-                        <input type="e-mail" id="e-mail" placeholder="E-mail@ejemplo.com">
-                    
-                    
-                        <label for="telefono">Ingrese su numero de telefono</label>
-                        <input type="telefono" id="telefono" placeholder="telefono...">
-                    
-                    
-                        <label for="texto">Ingrese su texto aqui</label>
-                        <form action="texto">
-                            <input type="text" class="text-box" tex>
-                        </form>
-                            <input type="submit">
-                            <input type="reset">
-                    </div>
-            </div>
-        
-            <div class="div-contacto">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, tempore. Totam, omnis maxime? Eveniet praesentium odio accusamus recusandae asperiores expedita reprehenderit voluptatibus autem fuga, velit exercitationem, maiores.</p>
-            </div>
-        
-        </main>
+        <div class="div-contacto">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, tempore. Totam, omnis maxime? Eveniet praesentium odio accusamus recusandae asperiores expedita reprehenderit voluptatibus autem fuga, velit exercitationem, maiores.</p>
+        </div>
+    </main>
         
         
-        <footer>
-            <div>
-                <h2>Contacto</h2>
-                <ul class="list-style-type">
-                    <li>ejemplosoporte@gmail.com</li>
-                    <li>+54 2611234567</li>
-                </ul>
-            </div>
+    <footer>
+        <div>
+            <h2>Contacto</h2>
+            <ul class="list-style-type">
+                <li>soporte9zteam@gmail.com</li>
+                <li>+54 2611234567</li>
+            </ul>
+        </div>
         
-            <div>
-                <h2>Redes</h2>
-                <ul class="list-style-type">    
-                    <li>Instagram</li>
-                    <li>Twitter</li>
-                    <li>Discord</li>
-                </ul>
-            </div>
-        
-        
-        </footer>
-
-
+        <div>
+            <h2>Redes</h2>
+            <ul class="list-style-type">    
+                <li><a target="valor_blank" href="https://www.instagram.com/9zteam/"> Instagram </a></li>
+                <li><a target="valor_blank" href="https://www.twitter.com/9zteam/">Twitter</a></li>
+                <li><a target="valor_blank" href="https://discord.com/invite/ZzVD5Hp">Discord</a></li>
+            </ul>
+        </div>
+    </footer>
 
 </body>
 </html>
