@@ -1,0 +1,59 @@
+/* MEDIA QUERIES PARA RESPONSIVE */
+@media (max-width: 768px) {
+    /* Header */
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    header ul {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+    }
+  
+    header button {
+      margin-top: 10px;
+    }
+  
+    /* body iconos */
+    main section ul {
+      flex-wrap: wrap;
+      padding: 50px;
+    }
+  
+    /* MAIN */
+    .main-somos {
+      flex-direction: column;
+    }
+  
+    .h2-somos {
+      font-size: 40px;
+    }
+  
+    .p-somos {
+      font-size: 20px;
+    }
+  
+    .img-somos {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  
+    .main-equipos {
+      padding: 50px;
+    }
+  
+    .h2-equipos {
+      font-size: 40px;
+    }
+  
+    .p-equipos {
+      font-size: 20px;
+    }
+  
+    .div-contacto {
+      font-size: 30px;
+    }
+  }
+  

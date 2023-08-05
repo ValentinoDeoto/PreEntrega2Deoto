@@ -1,0 +1,112 @@
+/* fondos de pantalla */
+
+.body-index {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .body-index::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/frankkaster-culturageek.com_.ar_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px); /* Ajusta el valor de blur según el desenfoque que desees */
+    z-index: -1;
+  }
+  
+  .body-somos {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .body-somos::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/34cF3rgsl_2000x1500__1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px) brightness(0.2); /* Ajusta el valor de blur según el desenfoque que desees */
+    z-index: -1;
+  }
+  
+  .body-equipos {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .body-equipos::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/KW726BINKBCMPEUPRVMX2TQACM.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px) brightness(0.4); /* Ajusta el valor de blur según el desenfoque que desees */
+    z-index: -1;
+  }
+  
+  .body-oficinas {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .body-oficinas::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/AGS2022-booth-9z-3-culturageek.com_.ar-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px) brightness(0.4); /* Ajusta el valor de blur según el desenfoque que desees */
+    z-index: -1;
+  }
+  
+  .body-contacto {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .body-contacto::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px) brightness(0.4); /* Ajusta el valor de blur según el desenfoque que desees */
+    z-index: -1;
+  }
+  

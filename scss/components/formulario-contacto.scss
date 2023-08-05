@@ -1,0 +1,78 @@
+/* Estilos para el formulario de contacto */
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: start;
+  }
+  
+  .formulario-contacto label {
+    font-size: 18px;
+    color: white;
+  }
+  
+  .formulario-contacto input[type="text"],
+  .formulario-contacto input[type="email"],
+  .formulario-contacto input[type="tel"],
+  .formulario-contacto textarea {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .formulario-contacto textarea {
+    resize: vertical;
+  }
+  
+  .formulario-contacto input[type="submit"],
+  .formulario-contacto input[type="reset"] {
+    width: 200px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .formulario-contacto input[type="submit"]:hover,
+  .formulario-contacto input[type="reset"]:hover {
+    background-color: #8a2be2;
+  }
+  
+  .div-contacto2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .search-form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .search-form input[type="search"] {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+  }
+  
+  .search-form input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Cambiar el color del botón cuando se le pasa el cursor por encima */
+  .search-form input[type="submit"]:hover {
+    background-color: #8a2be2;
+  }
+  

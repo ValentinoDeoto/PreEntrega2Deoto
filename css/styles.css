@@ -1,11 +1,11 @@
+@charset "UTF-8";
 /* Fuente de Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
 /* Aplicar la fuente a todos los elementos */
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif; /* Agregamos la fuente Lato a todos los elementos */
+  font-family: "Lato", sans-serif; /* Agregamos la fuente Lato a todos los elementos */
 }
 
 ul ol {
@@ -18,10 +18,10 @@ a {
 }
 
 /* Header */
-
 .list-style-type {
   list-style-type: none;
 }
+
 header {
   position: relative;
   color: white;
@@ -39,11 +39,12 @@ header form.search-form {
   align-items: center;
 }
 
-header form input[type="search"] {
+header form input[type=search] {
   width: 200px;
   height: 30px;
   font-size: 16px;
 }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -78,10 +79,10 @@ header button {
 }
 
 /* body iconos */
-
 .row {
   padding-bottom: 25px;
 }
+
 .sponsors {
   max-width: 200px;
   max-height: 50px;
@@ -147,7 +148,6 @@ footer ul li {
   max-height: 600px;
 }
 
-
 .main-equipos {
   display: flex;
   flex-wrap: wrap;
@@ -173,6 +173,7 @@ footer ul li {
   max-width: 300px;
   min-height: 300px;
 }
+
 .p-equipos {
   width: 200px;
   color: white;
@@ -193,61 +194,47 @@ footer ul li {
     flex-direction: column;
     text-align: center;
   }
-
   header ul {
     flex-direction: column;
     gap: 10px;
     margin-top: 10px;
   }
-
   header button {
     margin-top: 10px;
   }
-
   /* body iconos */
   main section ul {
     flex-wrap: wrap;
     padding: 50px;
   }
-
   /* MAIN */
   .main-somos {
     flex-direction: column;
   }
-
   .h2-somos {
     font-size: 40px;
   }
-
   .p-somos {
     font-size: 20px;
   }
-
   .img-somos {
     max-width: 100%;
     max-height: 100%;
   }
-
   .main-equipos {
     padding: 50px;
   }
-
   .h2-equipos {
     font-size: 40px;
   }
-
   .p-equipos {
     font-size: 20px;
   }
-
   .div-contacto {
     font-size: 30px;
   }
 }
-
-
 /* fondos de pantalla */
-
 .body-index {
   position: relative;
   background-repeat: no-repeat;
@@ -372,9 +359,9 @@ footer ul li {
   color: white;
 }
 
-.formulario-contacto input[type="text"],
-.formulario-contacto input[type="email"],
-.formulario-contacto input[type="tel"],
+.formulario-contacto input[type=text],
+.formulario-contacto input[type=email],
+.formulario-contacto input[type=tel],
 .formulario-contacto textarea {
   width: 300px;
   padding: 10px;
@@ -385,8 +372,8 @@ footer ul li {
   resize: vertical;
 }
 
-.formulario-contacto input[type="submit"],
-.formulario-contacto input[type="reset"] {
+.formulario-contacto input[type=submit],
+.formulario-contacto input[type=reset] {
   width: 200px;
   padding: 10px;
   font-size: 18px;
@@ -397,8 +384,8 @@ footer ul li {
   border-radius: 5px;
 }
 
-.formulario-contacto input[type="submit"]:hover,
-.formulario-contacto input[type="reset"]:hover {
+.formulario-contacto input[type=submit]:hover,
+.formulario-contacto input[type=reset]:hover {
   background-color: #8a2be2;
 }
 
@@ -406,7 +393,6 @@ footer ul li {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  ;
 }
 
 .search-form {
@@ -414,7 +400,7 @@ footer ul li {
   gap: 10px;
 }
 
-.search-form input[type="search"] {
+.search-form input[type=search] {
   width: 200px;
   padding: 10px;
   font-size: 16px;
@@ -422,7 +408,7 @@ footer ul li {
   border-radius: 5px;
 }
 
-.search-form input[type="submit"] {
+.search-form input[type=submit] {
   padding: 10px 20px;
   font-size: 16px;
   background-color: blueviolet;
@@ -433,6 +419,8 @@ footer ul li {
 }
 
 /* Cambiar el color del botón cuando se le pasa el cursor por encima */
-.search-form input[type="submit"]:hover {
+.search-form input[type=submit]:hover {
   background-color: #8a2be2;
 }
+
+/*# sourceMappingURL=styles.css.map */
